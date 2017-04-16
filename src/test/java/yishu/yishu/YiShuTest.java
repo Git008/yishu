@@ -5,7 +5,7 @@ import org.junit.runner.RunWith;
 import cucumber.api.junit.Cucumber;
 
 /**
- * Created by Git008 on 2017/3/29.
+ * Created by victor on 2017/3/29.
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin={"pretty"}, features={"src/test/resources"})
