@@ -20,8 +20,13 @@ public enum DIZHI
 
     private int index;
 
-    private  DIZHI(int i)
+    private DIZHI(int i)
     {
         index = i;
+    }
+
+    public int getIndex()
+    {
+        return index;
     }
 }

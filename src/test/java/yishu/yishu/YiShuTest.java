@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
  * Created by victor on 2017/3/29.
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin={"pretty"}, features={"src/test/resources"})
+@CucumberOptions(plugin = {"pretty"}, features = {"src/test/resources"})
 public class YiShuTest
 {
 }
