@@ -6,7 +6,7 @@ package yishu.yishu;
 public enum DIZHI
 {
     ZI(1),     /* 子 */
-    CHOU(2),   /* 子 */
+    CHOU(2),   /* 丑 */
     YIN(3),    /* 寅 */
     MAO(4),    /* 卯 */
     CHEN(5),   /* 辰 */
