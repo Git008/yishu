@@ -10,6 +10,6 @@
       | year | month | day | hour |
       | CHEN | 12    | 17  | SHEN |
     当   算卦
-    那么 上挂下挂动爻
-      | up  | down | dong |
-      | DUI | LI   | 1    |
+    那么 本卦互卦变卦
+      | ben        | hu               | bian          |
+      | ZE_HUO_GE | TIAN_FENG_GOU   | ZE_SHAN_XIAN  |

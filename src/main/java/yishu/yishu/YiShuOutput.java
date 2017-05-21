@@ -5,53 +5,53 @@ package yishu.yishu;
  */
 public class YiShuOutput
 {
-    private EightDiagrams up;
-    private EightDiagrams down;
-    private Integer dong;
+    private SixtyDiagrams ben;
+    private SixtyDiagrams hu;
+    private SixtyDiagrams bian;
 
     public YiShuOutput()
     {
 
     }
 
-    public EightDiagrams getUp()
+    public void setBen(SixtyDiagrams ben)
     {
-        return up;
+        this.ben = ben;
     }
 
-    public void setUp(EightDiagrams up)
+    public SixtyDiagrams getBen()
     {
-        this.up = up;
+
+        return ben;
     }
 
-    public EightDiagrams getDown()
+    public void setHu(SixtyDiagrams hu)
     {
-        return down;
-
+        this.hu = hu;
     }
 
-    public void setDown(EightDiagrams down)
+    public SixtyDiagrams getHu()
     {
-        this.down = down;
+        return hu;
     }
 
-    public Integer getDong()
+    public SixtyDiagrams getBian()
     {
-        return dong;
+        return bian;
     }
 
-    public void setDong(Integer dong)
+    public void setBian(SixtyDiagrams bian)
     {
-        this.dong = dong;
+        this.bian = bian;
     }
 
     @Override
     public String toString()
     {
         return "YiShuOutput{" +
-                "up=" + up +
-                ", down=" + down +
-                ", dong=" + dong +
+                "ben=" + ben +
+                ", hu=" + hu +
+                ", bian=" + bian +
                 '}';
     }
 
@@ -63,17 +63,17 @@ public class YiShuOutput
 
         YiShuOutput that = (YiShuOutput) o;
 
-        if (up != that.up) return false;
-        if (down != that.down) return false;
-        return dong != null ? dong.equals(that.dong) : that.dong == null;
+        if (ben != that.ben) return false;
+        if (hu != that.hu) return false;
+        return bian == that.bian;
     }
 
     @Override
     public int hashCode()
     {
-        int result = up != null ? up.hashCode() : 0;
-        result = 31 * result + (down != null ? down.hashCode() : 0);
-        result = 31 * result + (dong != null ? dong.hashCode() : 0);
+        int result = ben != null ? ben.hashCode() : 0;
+        result = 31 * result + (hu != null ? hu.hashCode() : 0);
+        result = 31 * result + (bian != null ? bian.hashCode() : 0);
         return result;
     }
 }

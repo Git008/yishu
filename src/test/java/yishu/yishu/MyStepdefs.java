@@ -33,9 +33,8 @@ public class MyStepdefs
         ouput = YiShu.process(input);
     }
 
-    @那么("^上挂下挂动爻$")
-    public void 上挂下挂动爻(List<YiShuOutput> YiShuOutputs) throws Throwable
-    {
+    @那么("^本卦互卦变卦$")
+    public void 本卦互卦变卦(List<YiShuOutput> YiShuOutputs) throws Throwable {
         for (YiShuOutput yishuOutput : YiShuOutputs)
         {
             Assert.assertEquals(ouput, yishuOutput);

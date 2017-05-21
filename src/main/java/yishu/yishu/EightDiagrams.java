@@ -12,7 +12,7 @@ public enum EightDiagrams
     XUN(5),      /* 巽 */
     KAN(6),      /* 坎 */
     GEN(7),      /* 艮 */
-    KUN(8),;     /* 坤 */
+    KUN(8);     /* 坤 */
 
     private int index;
 
